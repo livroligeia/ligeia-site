@@ -1,12 +1,109 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ligeia</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ligeia — Em Breve</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:
+        radial-gradient(circle at center, rgba(120,90,40,.15), transparent 50%),
+        #090807;
+    color:#d6c3a1;
+    font-family: Georgia, serif;
+    text-align:center;
+    padding:30px;
+}
+
+.container{
+    max-width:700px;
+}
+
+h1{
+    font-size:clamp(3rem,8vw,6rem);
+    font-weight:normal;
+    margin-bottom:20px;
+    letter-spacing:1px;
+}
+
+.divisor{
+    width:120px;
+    height:1px;
+    background:#8b6a35;
+    margin:0 auto 30px;
+}
+
+.subtitulo{
+    font-size:1.4rem;
+    font-style:italic;
+    color:#c9b18a;
+    margin-bottom:40px;
+}
+
+.frase{
+    font-size:1.2rem;
+    line-height:1.8;
+    color:#a88d66;
+    margin-bottom:50px;
+}
+
+.status{
+    display:inline-block;
+    border:1px solid #8b6a35;
+    padding:14px 30px;
+    color:#d6c3a1;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    font-size:.9rem;
+}
+
+.rodape{
+    margin-top:50px;
+    font-size:.85rem;
+    color:#6f604a;
+}
+</style>
+
 </head>
 <body>
+
+<div class="container">
+
 <h1>Ligeia</h1>
-<p>Site em construção.</p>
+
+<div class="divisor"></div>
+
+<p class="subtitulo">
+A mulher que me apresentou a Edgar Allan Poe
+</p>
+
+<p class="frase">
+Ela não parecia viva.<br>
+Parecia lembrar algo anterior à própria morte.
+</p>
+
+<div class="status">
+Site em construção
+</div>
+
+<p class="rodape">
+Em breve.
+</p>
+
+</div>
+
 </body>
 </html>
+```
